@@ -1,0 +1,29 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.weather-widget,
+.news-widget,
+.todo-list-widget,
+.quote-widget {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.widget-selector {
+  margin-bottom: 20px;
+}
+
+.widget-selector label {
+  margin-right: 10px;
+}
